@@ -5,6 +5,14 @@
   font-family: "Work Sans", sans-serif;
 }
 .btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 1.25rem;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 /* header styles */
@@ -30,7 +38,7 @@ nav > ul {
 
 nav li {
   list-style: none;
-  margin-left: 40px;
+  margin-right: 40px;
   font-weight: 500;
   font-size: 1rem;
 }
@@ -53,4 +61,29 @@ nav li a {
 .banner-description {
   color: #727272;
   font-size: 1rem;
+}
+.banner img {
+  margin-top: 32px;
+  width: 100%;
+}
+
+/* Responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* tablet or mobile devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
 }
