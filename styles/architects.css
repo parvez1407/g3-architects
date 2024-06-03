@@ -1,7 +1,10 @@
 /* work sans font */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* Shared Styles */
 * {
   font-family: "Work Sans", sans-serif;
+}
+.btn-primary {
 }
 
 /* header styles */
@@ -34,4 +37,20 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #424242;
+}
+/* Banner Content */
+
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  counter-reset: #131313;
+}
+.banner-description {
+  color: #727272;
+  font-size: 1rem;
 }
