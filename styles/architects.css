@@ -132,6 +132,8 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/* facts section style Ends */
+
 /* Responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -152,6 +154,11 @@ main {
   .teams-img-container {
     grid-template-columns: 1fr;
     margin-top: 2rem;
+  }
+  .facts-card-container {
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 0 8rem;
   }
 }
 
