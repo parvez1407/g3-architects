@@ -200,6 +200,15 @@ main {
   margin-top: 3rem;
 }
 /* Sponsors styles End */
+/* footer start */
+.footer p {
+  background-color: #fff4e7;
+  padding: 40px 410px;
+  margin: 130px 220px;
+  text-align: center;
+  color: #424242;
+}
+/* footer end */
 
 /* Responsive media queries */
 /* mobile devices */
@@ -244,6 +253,14 @@ main {
     bottom: 5rem;
     right: -1rem;
   }
+  .footer p {
+    background-color: #fff4e7;
+    padding: 43px 0;
+    margin: 30px 50px;
+    text-align: center;
+    color: #424242;
+    font-size: 0.8rem;
+  }
 }
 
 /* tablet or mobile devices */
@@ -283,5 +300,12 @@ main {
     gap: 1.5rem;
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .footer p {
+    background-color: #fff4e7;
+    padding: 40px 0;
+    margin: 30px 50px;
+    text-align: center;
+    color: #424242;
   }
 }
